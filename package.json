@@ -1,0 +1,27 @@
+{
+  "name": "odin-restaurant-page",
+  "version": "1.0.0",
+  "description": "Restaurant page with dynamic rendering using es6 modules and webpack to bundle code.",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/purgz/odin-restaurant-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/purgz/odin-restaurant-page/issues"
+  },
+  "homepage": "https://github.com/purgz/odin-restaurant-page#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.2"
+  }
+}
