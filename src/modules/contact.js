@@ -1,5 +1,5 @@
-export default function loadMenu(){
+export default function loadContact(){
     const content = document.querySelector("#content");
     content.innerHTML = "";
-    content.textContent = "Menu page";
+    content.textContent = "contact page";
 }
