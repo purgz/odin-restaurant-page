@@ -1,11 +1,13 @@
 import Icon from "../images/icon.svg";
+import BackgroundImg from "../images/pizza-background.jpg";
 
 export function loadHome(){
     const content = document.querySelector("#content");
     content.innerHTML = "";
-    content.textContent = "Home page";
-
-
+   
+    //add background image
+    const fullPage = document.querySelector("html");
+    fullPage.style.backgroundImage = `url(${BackgroundImg})`
 }
 
 export function loadFooter(){

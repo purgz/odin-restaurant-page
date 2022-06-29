@@ -84,6 +84,7 @@ export default function loadMenu(){
     const title = document.createElement("h2");
     title.textContent = "Menu";
     title.style.fontSize ="50px"
+    title.style.color = "white"
 
     //go through each pizza and create item
     pizzas.forEach(pizza =>{
