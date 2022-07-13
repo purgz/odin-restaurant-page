@@ -28,6 +28,7 @@
     "webpack-dev-server": "^4.9.2"
   },
   "dependencies": {
+    "load-google-maps-api": "^2.0.2",
     "lodash": "^4.17.21"
   }
 }
