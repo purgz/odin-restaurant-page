@@ -135,7 +135,7 @@ a{
 }
 .contact-page{
     background-color: rgba(0, 0, 0, 0.5);
-    
+    border-radius: 10px;
     padding: 30px;
     display: flex;
     gap: 30px;
@@ -143,4 +143,13 @@ a{
 .map{
     display: flex;
     align-items: center;
+}
+.main-page-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 10px;
 }
